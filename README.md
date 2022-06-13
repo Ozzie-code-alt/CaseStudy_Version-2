@@ -1,6 +1,6 @@
 # CaseStudy_Version-2      Installing and Implementing 
 
-PS: 
+PS: https://drive.google.com/drive/folders/1b14N0SQcBM5NL6Ryz0_t3bVpMR8soh-_?usp=sharing for Emgu_Cv and OpenPose
 
 This section provides the following information is about how to Execute Web Form ,  Signup , Browse Website  and Use the mock VFR Experience.
 
