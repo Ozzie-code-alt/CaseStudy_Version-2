@@ -30,9 +30,30 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnClsoe = new System.Windows.Forms.Button();
             this.pnlLogin = new System.Windows.Forms.Panel();
             this.pnlSIgnUP = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.lblBACK = new System.Windows.Forms.LinkLabel();
             this.btnSign = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
@@ -65,7 +86,6 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pnlName = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -73,16 +93,27 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnClsoe = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnlLogin.SuspendLayout();
             this.pnlSIgnUP.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel23.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel26.SuspendLayout();
+            this.panel27.SuspendLayout();
             this.panel17.SuspendLayout();
             this.pnlPasses.SuspendLayout();
             this.panel19.SuspendLayout();
@@ -95,18 +126,18 @@
             this.panel6.SuspendLayout();
             this.pnlPass.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel4.SuspendLayout();
             this.pnlName.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.HotPink;
             this.panel1.Controls.Add(this.btnClsoe);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -114,21 +145,6 @@
             this.panel1.Padding = new System.Windows.Forms.Padding(5);
             this.panel1.Size = new System.Drawing.Size(1279, 69);
             this.panel1.TabIndex = 0;
-            // 
-            // btnClsoe
-            // 
-            this.btnClsoe.BackgroundImage = global::ItFitsOutFits.Properties.Resources.cancel;
-            this.btnClsoe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnClsoe.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnClsoe.FlatAppearance.BorderSize = 0;
-            this.btnClsoe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnClsoe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClsoe.Location = new System.Drawing.Point(1180, 5);
-            this.btnClsoe.Name = "btnClsoe";
-            this.btnClsoe.Size = new System.Drawing.Size(94, 59);
-            this.btnClsoe.TabIndex = 0;
-            this.btnClsoe.UseVisualStyleBackColor = true;
-            this.btnClsoe.Click += new System.EventHandler(this.btnClsoe_Click);
             // 
             // pnlLogin
             // 
@@ -151,6 +167,13 @@
             // 
             // pnlSIgnUP
             // 
+            this.pnlSIgnUP.Controls.Add(this.label20);
+            this.pnlSIgnUP.Controls.Add(this.label14);
+            this.pnlSIgnUP.Controls.Add(this.panel5);
+            this.pnlSIgnUP.Controls.Add(this.label16);
+            this.pnlSIgnUP.Controls.Add(this.panel21);
+            this.pnlSIgnUP.Controls.Add(this.label18);
+            this.pnlSIgnUP.Controls.Add(this.panel25);
             this.pnlSIgnUP.Controls.Add(this.lblBACK);
             this.pnlSIgnUP.Controls.Add(this.btnSign);
             this.pnlSIgnUP.Controls.Add(this.label11);
@@ -166,6 +189,227 @@
             this.pnlSIgnUP.Size = new System.Drawing.Size(840, 484);
             this.pnlSIgnUP.TabIndex = 13;
             this.pnlSIgnUP.Visible = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(652, 372);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(100, 15);
+            this.label20.TabIndex = 20;
+            this.label20.Text = "Age - mm/dd/yyyy";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(422, 253);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(106, 20);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "Age / Birthday";
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.panel10);
+            this.panel5.Controls.Add(this.panel14);
+            this.panel5.Location = new System.Drawing.Point(534, 251);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(295, 98);
+            this.panel5.TabIndex = 18;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.label15);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(0, 52);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(295, 42);
+            this.panel10.TabIndex = 5;
+            this.panel10.Visible = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Firebrick;
+            this.label15.Location = new System.Drawing.Point(3, 17);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(117, 20);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Field Required";
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.panel18);
+            this.panel14.Controls.Add(this.textBox1);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel14.Location = new System.Drawing.Point(0, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(295, 52);
+            this.panel14.TabIndex = 3;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.White;
+            this.panel18.Location = new System.Drawing.Point(3, 38);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(452, 1);
+            this.panel18.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Gray;
+            this.textBox1.Location = new System.Drawing.Point(3, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(454, 32);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "Enter Age";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(445, 151);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(63, 20);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "Gender";
+            // 
+            // panel21
+            // 
+            this.panel21.Controls.Add(this.panel22);
+            this.panel21.Controls.Add(this.panel23);
+            this.panel21.Location = new System.Drawing.Point(534, 145);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(295, 98);
+            this.panel21.TabIndex = 16;
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.label17);
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel22.Location = new System.Drawing.Point(0, 52);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(295, 42);
+            this.panel22.TabIndex = 5;
+            this.panel22.Visible = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Firebrick;
+            this.label17.Location = new System.Drawing.Point(3, 17);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(117, 20);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "Field Required";
+            // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.panel24);
+            this.panel23.Controls.Add(this.textBox2);
+            this.panel23.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel23.Location = new System.Drawing.Point(0, 0);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(295, 52);
+            this.panel23.TabIndex = 3;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.White;
+            this.panel24.Location = new System.Drawing.Point(3, 38);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(452, 1);
+            this.panel24.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.Gray;
+            this.textBox2.Location = new System.Drawing.Point(3, 3);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(454, 32);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "Enter Gender";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(427, 40);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(81, 20);
+            this.label18.TabIndex = 15;
+            this.label18.Text = "Full Name";
+            // 
+            // panel25
+            // 
+            this.panel25.Controls.Add(this.panel26);
+            this.panel25.Controls.Add(this.panel27);
+            this.panel25.Location = new System.Drawing.Point(534, 38);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(295, 98);
+            this.panel25.TabIndex = 14;
+            // 
+            // panel26
+            // 
+            this.panel26.Controls.Add(this.label19);
+            this.panel26.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel26.Location = new System.Drawing.Point(0, 52);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(295, 42);
+            this.panel26.TabIndex = 5;
+            this.panel26.Visible = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Firebrick;
+            this.label19.Location = new System.Drawing.Point(3, 17);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(117, 20);
+            this.label19.TabIndex = 5;
+            this.label19.Text = "Field Required";
+            // 
+            // panel27
+            // 
+            this.panel27.Controls.Add(this.panel28);
+            this.panel27.Controls.Add(this.textBox3);
+            this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel27.Location = new System.Drawing.Point(0, 0);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(295, 52);
+            this.panel27.TabIndex = 3;
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.Color.White;
+            this.panel28.Location = new System.Drawing.Point(3, 38);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(452, 1);
+            this.panel28.TabIndex = 4;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.Gray;
+            this.textBox3.Location = new System.Drawing.Point(3, 3);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(454, 32);
+            this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "Enter Name";
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // lblBACK
             // 
@@ -183,11 +427,11 @@
             // 
             // btnSign
             // 
-            this.btnSign.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.btnSign.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSign.FlatAppearance.BorderColor = System.Drawing.Color.LightPink;
+            this.btnSign.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightPink;
             this.btnSign.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSign.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSign.ForeColor = System.Drawing.Color.Lime;
+            this.btnSign.ForeColor = System.Drawing.Color.Pink;
             this.btnSign.Location = new System.Drawing.Point(307, 370);
             this.btnSign.Name = "btnSign";
             this.btnSign.Size = new System.Drawing.Size(258, 55);
@@ -202,7 +446,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(120, 250);
+            this.label11.Location = new System.Drawing.Point(10, 253);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(78, 20);
             this.label11.TabIndex = 11;
@@ -212,9 +456,9 @@
             // 
             this.panel17.Controls.Add(this.pnlPasses);
             this.panel17.Controls.Add(this.panel19);
-            this.panel17.Location = new System.Drawing.Point(229, 247);
+            this.panel17.Location = new System.Drawing.Point(119, 250);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(408, 98);
+            this.panel17.Size = new System.Drawing.Size(295, 98);
             this.panel17.TabIndex = 10;
             // 
             // pnlPasses
@@ -223,7 +467,7 @@
             this.pnlPasses.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlPasses.Location = new System.Drawing.Point(0, 52);
             this.pnlPasses.Name = "pnlPasses";
-            this.pnlPasses.Size = new System.Drawing.Size(408, 42);
+            this.pnlPasses.Size = new System.Drawing.Size(295, 42);
             this.pnlPasses.TabIndex = 5;
             this.pnlPasses.Visible = false;
             // 
@@ -245,7 +489,7 @@
             this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel19.Location = new System.Drawing.Point(0, 0);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(408, 52);
+            this.panel19.Size = new System.Drawing.Size(295, 52);
             this.panel19.TabIndex = 3;
             // 
             // panel20
@@ -273,7 +517,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(120, 148);
+            this.label9.Location = new System.Drawing.Point(10, 151);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 20);
             this.label9.TabIndex = 9;
@@ -283,9 +527,9 @@
             // 
             this.panel13.Controls.Add(this.pnlContact);
             this.panel13.Controls.Add(this.panel15);
-            this.panel13.Location = new System.Drawing.Point(229, 141);
+            this.panel13.Location = new System.Drawing.Point(119, 144);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(408, 98);
+            this.panel13.Size = new System.Drawing.Size(295, 98);
             this.panel13.TabIndex = 8;
             // 
             // pnlContact
@@ -294,7 +538,7 @@
             this.pnlContact.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlContact.Location = new System.Drawing.Point(0, 52);
             this.pnlContact.Name = "pnlContact";
-            this.pnlContact.Size = new System.Drawing.Size(408, 42);
+            this.pnlContact.Size = new System.Drawing.Size(295, 42);
             this.pnlContact.TabIndex = 5;
             this.pnlContact.Visible = false;
             // 
@@ -316,7 +560,7 @@
             this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel15.Location = new System.Drawing.Point(0, 0);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(408, 52);
+            this.panel15.Size = new System.Drawing.Size(295, 52);
             this.panel15.TabIndex = 3;
             // 
             // panel16
@@ -344,7 +588,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(120, 37);
+            this.label8.Location = new System.Drawing.Point(10, 40);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(89, 20);
             this.label8.TabIndex = 7;
@@ -364,9 +608,9 @@
             // 
             this.panel7.Controls.Add(this.pnlUserNamee);
             this.panel7.Controls.Add(this.panel11);
-            this.panel7.Location = new System.Drawing.Point(229, 34);
+            this.panel7.Location = new System.Drawing.Point(119, 37);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(408, 98);
+            this.panel7.Size = new System.Drawing.Size(295, 98);
             this.panel7.TabIndex = 5;
             // 
             // pnlUserNamee
@@ -375,7 +619,7 @@
             this.pnlUserNamee.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlUserNamee.Location = new System.Drawing.Point(0, 52);
             this.pnlUserNamee.Name = "pnlUserNamee";
-            this.pnlUserNamee.Size = new System.Drawing.Size(408, 42);
+            this.pnlUserNamee.Size = new System.Drawing.Size(295, 42);
             this.pnlUserNamee.TabIndex = 5;
             this.pnlUserNamee.Visible = false;
             // 
@@ -397,7 +641,7 @@
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(408, 52);
+            this.panel11.Size = new System.Drawing.Size(295, 52);
             this.panel11.TabIndex = 3;
             // 
             // panel12
@@ -436,11 +680,11 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.Lime;
+            this.btnLogin.ForeColor = System.Drawing.Color.LightPink;
             this.btnLogin.Location = new System.Drawing.Point(308, 352);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(258, 55);
@@ -475,7 +719,7 @@
             this.label4.ForeColor = System.Drawing.Color.Firebrick;
             this.label4.Location = new System.Drawing.Point(3, 17);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(264, 25);
+            this.label4.Size = new System.Drawing.Size(211, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Invalid Password Try Again";
             // 
@@ -510,16 +754,6 @@
             this.txtPass.Text = "Enter Password";
             this.txtPass.Click += new System.EventHandler(this.txtPass_Click);
             this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ItFitsOutFits.Properties.Resources.id_card__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(35, 211);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(63, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
             // 
             // panel4
             // 
@@ -593,16 +827,6 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Password";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ItFitsOutFits.Properties.Resources.id_card;
-            this.pictureBox1.Location = new System.Drawing.Point(35, 100);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -625,7 +849,7 @@
             // 
             // pnlLogo
             // 
-            this.pnlLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pnlLogo.BackColor = System.Drawing.Color.Pink;
             this.pnlLogo.Controls.Add(this.label13);
             this.pnlLogo.Controls.Add(this.pictureBox3);
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Left;
@@ -637,30 +861,65 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label13.BackColor = System.Drawing.Color.PaleVioletRed;
             this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.label13.Location = new System.Drawing.Point(87, 38);
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label13.Location = new System.Drawing.Point(59, 41);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(275, 45);
             this.label13.TabIndex = 13;
             this.label13.Text = "IT FITS OUTFITS";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ItFitsOutFits.Properties.Resources.clothes_hanger;
-            this.pictureBox3.Location = new System.Drawing.Point(74, 112);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(247, 234);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ItFitsOutFits.Properties.Resources.id_card__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(35, 211);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(63, 51);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ItFitsOutFits.Properties.Resources.id_card;
+            this.pictureBox1.Location = new System.Drawing.Point(35, 100);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(63, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ItFitsOutFits.Properties.Resources._286350317_692109295188803_4442061183262580638_n1;
+            this.pictureBox3.Location = new System.Drawing.Point(38, 108);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(324, 295);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnClsoe
+            // 
+            this.btnClsoe.BackgroundImage = global::ItFitsOutFits.Properties.Resources.cancel;
+            this.btnClsoe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnClsoe.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClsoe.FlatAppearance.BorderSize = 0;
+            this.btnClsoe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
+            this.btnClsoe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClsoe.Location = new System.Drawing.Point(1180, 5);
+            this.btnClsoe.Name = "btnClsoe";
+            this.btnClsoe.Size = new System.Drawing.Size(94, 59);
+            this.btnClsoe.TabIndex = 0;
+            this.btnClsoe.UseVisualStyleBackColor = true;
+            this.btnClsoe.Click += new System.EventHandler(this.btnClsoe_Click);
             // 
             // FormOutfits
             // 
@@ -681,6 +940,21 @@
             this.pnlLogin.PerformLayout();
             this.pnlSIgnUP.ResumeLayout(false);
             this.pnlSIgnUP.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel21.ResumeLayout(false);
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            this.panel25.ResumeLayout(false);
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
             this.panel17.ResumeLayout(false);
             this.pnlPasses.ResumeLayout(false);
             this.pnlPasses.PerformLayout();
@@ -701,15 +975,15 @@
             this.pnlPass.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.pnlName.ResumeLayout(false);
             this.pnlName.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlLogo.ResumeLayout(false);
             this.pnlLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
@@ -768,6 +1042,28 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.LinkLabel lblBACK;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label20;
     }
 }
 

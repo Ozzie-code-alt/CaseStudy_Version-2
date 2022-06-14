@@ -79,7 +79,7 @@ namespace ItFitsOutFits
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            btnLogin.ForeColor = Color.Lime;
+            btnLogin.ForeColor = Color.HotPink;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -132,7 +132,7 @@ namespace ItFitsOutFits
 
         private void button1_MouseLeave_1(object sender, EventArgs e)
         {
-            btnSign.ForeColor = Color.Lime;
+            btnSign.ForeColor = Color.HotPink;
         }
 
         
@@ -248,6 +248,11 @@ namespace ItFitsOutFits
             
             pnlSIgnUP.Dock = DockStyle.Fill;
            
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

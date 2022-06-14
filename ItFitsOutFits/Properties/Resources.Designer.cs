@@ -63,6 +63,36 @@ namespace ItFitsOutFits.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _286088477_567981054918621_8650580540063130241_n {
+            get {
+                object obj = ResourceManager.GetObject("286088477_567981054918621_8650580540063130241_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _286350317_692109295188803_4442061183262580638_n {
+            get {
+                object obj = ResourceManager.GetObject("286350317_692109295188803_4442061183262580638_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _286350317_692109295188803_4442061183262580638_n1 {
+            get {
+                object obj = ResourceManager.GetObject("286350317_692109295188803_4442061183262580638_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancel {
             get {
                 object obj = ResourceManager.GetObject("cancel", resourceCulture);
